@@ -9,7 +9,9 @@ The **Shopping System** is a console-based application built in C# that allows u
 ✅ **Remove Items** – Allows users to remove specific products from their cart  
 ✅ **Checkout** – Finalizes the purchase and displays an order summary  
 ✅ **Undo Last Action** – Users can undo their most recent action (add/remove) 
+
 ✅ **View Total Price** – Shows the total price of all items before checkout
+
 ✅ **Exit** – Users can exit the system at any time
 
 ## 🎮 How to Run  
