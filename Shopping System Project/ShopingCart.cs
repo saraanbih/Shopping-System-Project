@@ -3,12 +3,19 @@ using System.Collections.Generic;
 
 namespace Shopping_System_Project
 {
-    // Product Class (Represents an Item in the Store)
-    class Product
+    interface IProduct
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public double Price { get; set; }
+        string Name { get; }
+        int Id { get; }
+        double Price { get; }
+    }
+
+    // Product Class (Represents an Item in the Store)
+    class Product : IProduct
+    {
+        public int Id { get; }
+        public string Name { get; }
+        public double Price { get; }
 
         public Product(int id, string name, double price)
         {

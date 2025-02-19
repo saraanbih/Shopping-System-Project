@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Shopping_System_Project
+﻿namespace Shopping_System_Project
 {
     class Program
     {
@@ -33,7 +31,7 @@ namespace Shopping_System_Project
             cart.Checkout();
 
             Console.WriteLine("\nShopping session complete");
-            
+
             Console.ReadKey();
         }
     }
